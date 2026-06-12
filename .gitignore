@@ -67,3 +67,24 @@ MANIFEST
 # Operating System specific files
 .DS_Store
 Thumbs.db
+
+
+#===========================================================================
+# Claude
+#===========================================================================
+
+.claude/local.md
+.claude/CLAUDE.md
+.claude/settings.local.json
+
+#===========================================================================
+#  Kotlin & Gradle
+#============================================================================
+
+.gradle/
+build/
+!**/src/**/build
+!**/test/**/build
+!**/tests-gen/**/build
+*.iml
+!**/testData/**/*.iml
