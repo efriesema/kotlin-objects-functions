@@ -93,3 +93,9 @@ hs_err_pid*
 
 ### Gradle template
 .gradle
+
+# Ignore Gradle build output directory
+build
+
+# Ignore Kotlin plugin data
+.kotlin
